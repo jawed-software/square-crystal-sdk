@@ -1,0 +1,4 @@
+lib/
+shard.lock
+.env
+.env.*
