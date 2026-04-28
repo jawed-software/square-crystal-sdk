@@ -12,5 +12,9 @@ module Square
         }
       )
     end
+
+    def payments
+      @payments ||= Square::Payments.new(@raw_client)
+    end
   end
 end
